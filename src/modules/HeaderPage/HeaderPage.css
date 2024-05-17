@@ -1,7 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
-    max-width: 1200px;
+    max-width: 1560px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    height: 84px;
+    box-sizing: border-box;
 }
 
+.background-container{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 58%, rgba(145,145,145,1) 100%);
+    width: 100%;
+    height: 100vh    ;
+
+}
+
+.side-black-panel{
+    float: left;
+}
+.side-panel{
+    background-color: black;
+    width: 230px;
+    height: 100vh;
+    float: left;
+}
+ @media (min-width: 230px) {
+    .side-panel {
+        width: 230px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .side-panel {
+        width: 220px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .side-panel {
+        width: 210px;
+    }
+}
+
+@media (max-width: 768px) {
+    .side-panel {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .side-panel {
+        width: 100%;
+    }
+}{
+
+}
+
+.good-afternoon-text{
+    display: flex;
+     align-items: end;
+}
+
+.h1-good-afternoon{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    Width: 246px;
+    Height: 38px;
+    color: white;
+
+}
+.cards-song{
+    display: flex;
+}
