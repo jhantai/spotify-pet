@@ -1,0 +1,68 @@
+.sideBarLogo{
+    padding: 25px 10px;
+    margin: 0 auto;
+}
+
+.sideBar{
+    background-color: black;
+    width: 320px;
+    height: 100dvh;
+    color: white;
+}
+
+.linksListParents{
+    margin-left: 10px;
+}
+
+.linksList{
+    list-style: none;
+}
+
+.linksList li {
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: 14px;
+
+    &&:hover{
+        background: linear-gradient(0deg, rgba(55, 55, 55, 1) 0%, rgba(82, 82, 82, 1) 100%);
+    }
+}
+
+.linksList li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
+.linksList li a img {
+    width: 24px;
+    height: 24px;
+}
+
+.linksTxt {
+    margin: 5px 0 0 15px;
+    font-family: "Nunito", sans-serif;
+}
+
+.PlaylistsSection p{
+    text-align: center;
+    margin-top: 30px;
+    color: #B3B3B3;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.PlaylistsList ul{
+    margin: 10px 0 0 10px;
+}
+
+.PlaylistsList ul li{
+    display: flex;
+    margin: 10px 0;
+}
+
+.PlaylistsList ul li p {
+    margin: 5px 0 0 10px;
+    font-size: 14px;
+}
