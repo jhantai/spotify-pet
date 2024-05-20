@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    max-width: 1560px;
+    width: 65%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -13,8 +13,8 @@
 }
 
 .background-container{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 58%, rgba(145,145,145,1) 100%);
+    background: rgb(32,32,32);
+    background: linear-gradient(0deg, rgba(32,32,32,1) 46%, rgba(82,82,82,1) 100%);
     width: 100%;
     height: 100vh    ;
 
@@ -57,13 +57,16 @@
     .side-panel {
         width: 100%;
     }
-}{
-
 }
-
+.text-and-cards-block{
+    display: flex;
+    flex-direction: column;
+}
 .good-afternoon-text{
     display: flex;
      align-items: end;
+    
+     
 }
 
 .h1-good-afternoon{
@@ -71,11 +74,46 @@
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
+    font-size: 33px;
     Width: 246px;
+    line-height: 38px;
     Height: 38px;
     color: white;
+   margin-top: 144px;
+   margin-bottom: 22px;
 
 }
 .cards-song{
     display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+
+}
+.cards{
+    display: flex;
+    align-items: center;
+    background: rgb(55,55,55);
+    background: linear-gradient(0deg, rgba(55,55,55,1) 0%, rgba(82,82,82,1) 100%);
+    width: 340px;
+    height: 84px;
+
+}
+.cards:hover{
+    background: rgb(95,92,92);
+    background: linear-gradient(0deg, rgba(95,92,92,1) 0%, rgba(82,82,82,1) 100%);
+}
+.card-img{
+    
+}
+.card-text{
+ width: 120px;
+height: 20px;
+color: white;
+font-family: "Nunito", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.24px;
+margin: 0 auto;
 }
