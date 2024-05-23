@@ -1,0 +1,65 @@
+.app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .player {
+    position: fixed;
+    bottom: -150px; /* начальное скрытое положение */
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    transition: bottom 0.3s ease;
+  }
+  
+  .player.visible {
+    bottom: 0; /* конечное видимое положение */
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .track-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .track {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .track:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .time-info {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
